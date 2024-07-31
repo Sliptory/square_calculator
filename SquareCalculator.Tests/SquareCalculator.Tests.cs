@@ -19,7 +19,7 @@ public class DefaultTests
     [Fact]
     public void RightTriangleCalculateTest()
     {
-        Assert.True(SquareCalc.SquareCalculator.IsStraightTriangle(6, 11, 12.530));
+        Assert.True(SquareCalc.SquareCalculator.IsStraightTriangle(6, 11, 12.53));
     }
 
     [Fact]

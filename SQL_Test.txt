@@ -1,7 +1,4 @@
-SELECT products.name, categories.name as categories
-FROM products LEFT JOIN categories
-ON product.categories = categories.id;
-
-
-
-SELECT * FROM products CROSS JOIN categories;
+SELECT product.name, category.name
+FROM products
+LEFT JOIN categories ON products.product_id = categories.product_id;
+ORDER BY product.name

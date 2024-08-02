@@ -8,8 +8,8 @@ internal abstract class AbstractShape
     {
         values = doubles;
 
-        if(values.Length == 0 || IsExist() == false)
-            throw new Exception("Shape is not exist");
+        if(IsExist() == false)
+            throw new Exception("Error: Shape is not exist");
     }
     public abstract double GetSquare();
     public abstract bool IsExist();

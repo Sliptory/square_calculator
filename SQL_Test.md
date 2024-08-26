@@ -21,10 +21,10 @@
 
 ### Ответ:
 ```sql
-SELECT products.name, categories.name
-FROM prodcat
-JOIN products
-    ON prodcat.product_id = products.id
-LEFT JOIN categories
-    ON prodcat.category_id = categories.id
+SELECT Products.name AS Product_Name, Categories.name AS Category_Name
+FROM ProdCat
+JOIN Products
+    ON ProdCat.product_id = Products.Id
+LEFT JOIN Categories
+    ON ProdCat.category_id = Categories.Id
 ```

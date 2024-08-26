@@ -15,6 +15,7 @@
 
 |ProdCat               |
 |----------------------|
+|+Id : INT             |
 |+product_id : VARCHAR |
 |+category_id: VARCHAR |
 
